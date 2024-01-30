@@ -1,10 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaMobile } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import viapulsa_app from "@/public/viapulsa_app.jpeg";
+import viapulsa_app_new from "@/public/viapulsa_app_new.png";
+import viapulsa_panel_app from "@/public/viapulsa_panel_app.png";
+import self_services_photoBooth from "@/public/self_services_photoBooth.png";
+import viapulsa_panel_admin_next_generation from "@/public/viapulsa_panel_admin_next_generation.png";
 
 export const links = [
   {
@@ -35,73 +37,128 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Mechanic",
+    location: "Ponorogo, Indonesia",
+    company: "SMK PGRI 2 Ponorogo",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Developed a comprehensive understanding of the automotive industry while studying at SMK PGRI 2 Ponorogo, specializing in Light Vehicle Engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2010 - 2013",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bachelor’s Degree",
+    location: "Jakarta, Indonesia",
+    company: "Universitas Idraprasta PGRI",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Completed an in-depth study program at Idraprasta PGRI University, specializing in the Informatics program.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016 - 2020",
+  },
+  {
+    title: "Manufacturing Technician",
+    location: "Sidoarjo, Indonesia",
+    company: "PT. Diansari Puri Plastindo",
+    description:
+      "Proficient in operating and maintaining injection molding machines, Set up and troubleshoot injection molding equipment, monitor production runs, and ensure quality output.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2013 - 2014",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Administration Staff",
+    location: "Bogor, Indonesia",
+    company: "PT. Karuna Sumber Jaya",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Manage monetary transactions, ensuring accuracy and completeness, Oversee budgeting processes, collaborating with different departments.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2014 - 2020",
+  },
+  {
+    title: "Mobile Developer",
+    location: "Madiun, Indonesia",
+    company: "PT. Viapulsa Global Indonesia",
+    description:
+      "Proficient in Dart, crafting client-side applications with a focus on seamless user experiences, Expert in Flutter, building visually stunning cross- platform mobile applications for iOS and Android.",
+    icon: React.createElement(FaMobile),
+    date: "2020 - 2023",
+  },
+  {
+    title: "Fullstack Developer",
+    location: "Madiun, Indonesia",
+    company: "PT. Viapulsa Global Indonesia",
+    description:
+      "Craft dynamic client-side applications using the versatility of JavaScript, Design modular and scalable user interfaces with a focus on React components for seamless single- page applications.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Viapulsa Panel Admin Next Generation",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "The application is based on JavaScript, React.js, Node.js, Express.js, MongoDB. Bot system transactions using the Python.",
+    tags: ["JavaScript", "Python", "Node", "React", "Express", "MongoDB",],
+    imageUrl: viapulsa_panel_admin_next_generation,
   },
   {
-    title: "rmtDev",
+    title: "Viapulsa App New",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Enhanced the Viapulsa application with a focus on elevating UI/UX and boosting performance in the latest version.",
+    tags: ["JavaScript", "React Native", "Firebase"],
+    imageUrl: viapulsa_app_new,
   },
   {
-    title: "Word Analytics",
+    title: "Viapulsa Panel App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Utilized the Vue.js framework and Firebase to create Viapulsa, an efficient credit top-up application.",
+    tags: ["JavaScript", "Node", "Vue", "Express", "Firebase",],
+    imageUrl: viapulsa_panel_app,
+  },
+  {
+    title: "Viapulsa App",
+    description:
+      "Developed Viapulsa, utilizing the Flutter framework and Firebase, to create an efficient and practical credit top-up application.",
+    tags: ["Dart", "Flutter", "Firebase"],
+    imageUrl: viapulsa_app,
+  },
+  {
+    title: "Self Services PhotoBooth",
+    description:
+      "Developed and implemented enhancements for a self-service photobooth application, with a primary focus on optimizing user interactions.",
+    tags: ["JavaScript", "React", "Electron", "Node", "Express", "SQLite"],
+    imageUrl: self_services_photoBooth,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "Dart",
+  "Python(Programming Language)",
+  "Java",
+  "PHP",
+  "Kotlin",
+  "Firebase",
+  "Flutter",
+  "Vue.js",
+  "Vuex",
+  "Nuxt.js",
+  "React.js",
+  "React Native",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Express.js",
+  "Electron.js",
+  "Tailwind CSS",
+  "JavaFX",
+  "Laravel",
+  "SQLite",
+  "MySQL",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MongoDB",
+  "Machine Operation",
+  "Car Service",
+  "Machine Tools",
+  "Car Repair",
+  "Administration"
 ] as const;
