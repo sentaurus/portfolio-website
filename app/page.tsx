@@ -1,4 +1,5 @@
 import About from '@/components/about';
+import BannerAd from '@/components/banner-ads';
 import Contact from '@/components/contact';
 import Experience from '@/components/experience';
 import Intro from '@/components/intro';
@@ -16,6 +17,7 @@ export default function Home() {
 			<Skills />
 			<Experience />
 			<Contact />
+			<BannerAd />
 		</main>
 	);
 }

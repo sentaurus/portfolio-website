@@ -6,6 +6,7 @@ import Footer from '@/components/footer';
 import ThemeSwitch from '@/components/theme-switch';
 import ThemeContextProvider from '@/context/theme-context';
 import { Toaster } from 'react-hot-toast';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<title>Dika | Personal Portfolio</title>
 				<meta name='description' content='Dika is a Fullstack developer with 3 years of experience.' />
 				<meta name='google-adsense-account' content='ca-pub-5295382362712798' />
+				<Script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5295382362712798' crossOrigin='anonymous' />
 			</head>
 			<body className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
 				<div className='bg-[#0091ff] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#0091ff]'></div>
